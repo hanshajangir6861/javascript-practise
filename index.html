@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seperater</title>
+</head>
+<body>
+    <script>
+const counteris=["india","australia","Israle","China","cuba","butan"]
+
+const newarr={}
+
+counteris.forEach((country)=>{
+const Firstletter=country.charAt(0).toLowerCase()
+
+console.log(Firstletter)
+
+if(!newarr[Firstletter]){
+newarr[Firstletter]=[]
+}
+newarr[Firstletter].push(country)
+})
+console.log(newarr)
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
